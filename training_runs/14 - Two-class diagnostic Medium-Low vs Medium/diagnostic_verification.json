@@ -1,0 +1,12 @@
+{
+  "two_output_nodes": true,
+  "two_class_train_and_validation": true,
+  "original_five_class_test_rows_preserved": true,
+  "original_five_class_script_unchanged": true,
+  "training_only_preprocessing_verified": true,
+  "saved_model_predictions_verified": true,
+  "dataset_sha256": "d50773d1fe80138092ece48ccaef5dc8459a6193090c3e5c0a5eaede4db71be7",
+  "test_size": 750,
+  "test_evaluated_during_initial_diagnostic": false,
+  "post_training_full_test_evaluation": "full_five_class_test_evaluation/metrics.json"
+}

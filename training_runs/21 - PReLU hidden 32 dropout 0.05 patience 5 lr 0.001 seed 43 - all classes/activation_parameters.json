@@ -1,0 +1,9 @@
+{
+  "checkpoint_epoch": 24,
+  "initial_slope": 0.25,
+  "restored_prelu_slopes": {
+    "network.1": [
+      0.21982748806476593
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "only_patience_changed_vs_run_16": true,
+  "single_hidden_layer_units": 32,
+  "patience": 10,
+  "identical_history_for_first_17_epochs": true,
+  "all_five_classes_in_every_split": true,
+  "identical_split_rows_and_preprocessing": true,
+  "saved_model_predictions_and_loss_verified": true,
+  "best_epoch": 24,
+  "epochs_trained": 34,
+  "plot_count": 9
+}

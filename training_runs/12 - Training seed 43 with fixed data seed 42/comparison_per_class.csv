@@ -1,0 +1,21 @@
+run,training_seed,data_seed,split,class,precision,recall,f1-score,support
+10 - Larger hidden layers 64-32 with dropout 0.05,42,42,validation,Low,0.0,0.0,0.0,24.0
+10 - Larger hidden layers 64-32 with dropout 0.05,42,42,validation,Medium-Low,0.4071428571428571,0.531055900621118,0.4609164420485175,322.0
+10 - Larger hidden layers 64-32 with dropout 0.05,42,42,validation,Medium,0.3696969696969697,0.4026402640264026,0.3854660347551343,303.0
+10 - Larger hidden layers 64-32 with dropout 0.05,42,42,validation,Medium-High,0.0,0.0,0.0,93.0
+10 - Larger hidden layers 64-32 with dropout 0.05,42,42,validation,High,0.0,0.0,0.0,8.0
+10 - Larger hidden layers 64-32 with dropout 0.05,42,42,test,Low,0.0,0.0,0.0,25.0
+10 - Larger hidden layers 64-32 with dropout 0.05,42,42,test,Medium-Low,0.4704491725768321,0.6160990712074303,0.5335120643431636,323.0
+10 - Larger hidden layers 64-32 with dropout 0.05,42,42,test,Medium,0.4403669724770642,0.4768211920529801,0.4578696343402226,302.0
+10 - Larger hidden layers 64-32 with dropout 0.05,42,42,test,Medium-High,0.0,0.0,0.0,93.0
+10 - Larger hidden layers 64-32 with dropout 0.05,42,42,test,High,0.0,0.0,0.0,7.0
+12 - Training seed 43 with fixed data seed 42,43,42,validation,Low,0.0,0.0,0.0,24.0
+12 - Training seed 43 with fixed data seed 42,43,42,validation,Medium-Low,0.4296875,0.6832298136645962,0.5275779376498801,322.0
+12 - Training seed 43 with fixed data seed 42,43,42,validation,Medium,0.3881856540084388,0.3036303630363036,0.3407407407407407,303.0
+12 - Training seed 43 with fixed data seed 42,43,42,validation,Medium-High,0.0,0.0,0.0,93.0
+12 - Training seed 43 with fixed data seed 42,43,42,validation,High,0.0,0.0,0.0,8.0
+12 - Training seed 43 with fixed data seed 42,43,42,test,Low,0.0,0.0,0.0,25.0
+12 - Training seed 43 with fixed data seed 42,43,42,test,Medium-Low,0.3911290322580645,0.6006191950464397,0.4737484737484737,323.0
+12 - Training seed 43 with fixed data seed 42,43,42,test,Medium,0.358267716535433,0.3013245033112582,0.3273381294964029,302.0
+12 - Training seed 43 with fixed data seed 42,43,42,test,Medium-High,0.0,0.0,0.0,93.0
+12 - Training seed 43 with fixed data seed 42,43,42,test,High,0.0,0.0,0.0,7.0

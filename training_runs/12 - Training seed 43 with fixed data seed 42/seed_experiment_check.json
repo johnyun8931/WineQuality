@@ -1,0 +1,12 @@
+{
+  "reference_run": "10 - Larger hidden layers 64-32 with dropout 0.05",
+  "training_seeds": [
+    42,
+    43
+  ],
+  "data_seed": 42,
+  "only_training_seed_changed": true,
+  "identical_split_rows_and_preprocessing": true,
+  "different_model_weights": true,
+  "saved_predictions_verified": true
+}

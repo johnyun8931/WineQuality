@@ -1,0 +1,12 @@
+{
+  "only_hyperparameter_changed": "learning_rate: 0.001 -> 0.0005",
+  "patience": 5,
+  "identical_split_rows_labels_and_scaler": true,
+  "all_five_classes_present": true,
+  "saved_metrics_recomputed": true,
+  "checkpoint_reproduces_saved_test_predictions": true,
+  "early_stopping_verified": true,
+  "best_epoch": 39,
+  "epochs_trained": 44,
+  "plots_saved": 9
+}

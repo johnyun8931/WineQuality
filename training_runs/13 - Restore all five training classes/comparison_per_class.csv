@@ -1,0 +1,21 @@
+run,training_exclusions,training_seed,split,class,precision,recall,f1-score,support
+12 - Training seed 43 with fixed data seed 42,"Medium-High, High",43,validation,Low,0.0,0.0,0.0,24.0
+12 - Training seed 43 with fixed data seed 42,"Medium-High, High",43,validation,Medium-Low,0.4296875,0.6832298136645962,0.5275779376498801,322.0
+12 - Training seed 43 with fixed data seed 42,"Medium-High, High",43,validation,Medium,0.3881856540084388,0.3036303630363036,0.3407407407407407,303.0
+12 - Training seed 43 with fixed data seed 42,"Medium-High, High",43,validation,Medium-High,0.0,0.0,0.0,93.0
+12 - Training seed 43 with fixed data seed 42,"Medium-High, High",43,validation,High,0.0,0.0,0.0,8.0
+12 - Training seed 43 with fixed data seed 42,"Medium-High, High",43,test,Low,0.0,0.0,0.0,25.0
+12 - Training seed 43 with fixed data seed 42,"Medium-High, High",43,test,Medium-Low,0.3911290322580645,0.6006191950464397,0.4737484737484737,323.0
+12 - Training seed 43 with fixed data seed 42,"Medium-High, High",43,test,Medium,0.358267716535433,0.3013245033112582,0.3273381294964029,302.0
+12 - Training seed 43 with fixed data seed 42,"Medium-High, High",43,test,Medium-High,0.0,0.0,0.0,93.0
+12 - Training seed 43 with fixed data seed 42,"Medium-High, High",43,test,High,0.0,0.0,0.0,7.0
+13 - Restore all five training classes,none,43,validation,Low,0.0,0.0,0.0,24.0
+13 - Restore all five training classes,none,43,validation,Medium-Low,0.4375,0.5869565217391305,0.5013262599469496,322.0
+13 - Restore all five training classes,none,43,validation,Medium,0.3993710691823899,0.4191419141914191,0.4090177133655394,303.0
+13 - Restore all five training classes,none,43,validation,Medium-High,0.0,0.0,0.0,93.0
+13 - Restore all five training classes,none,43,validation,High,0.0,0.0,0.0,8.0
+13 - Restore all five training classes,none,43,test,Low,0.0,0.0,0.0,25.0
+13 - Restore all five training classes,none,43,test,Medium-Low,0.4171122994652406,0.4829721362229102,0.4476327116212338,323.0
+13 - Restore all five training classes,none,43,test,Medium,0.3776595744680851,0.4701986754966887,0.4188790560471976,302.0
+13 - Restore all five training classes,none,43,test,Medium-High,0.0,0.0,0.0,93.0
+13 - Restore all five training classes,none,43,test,High,0.0,0.0,0.0,7.0

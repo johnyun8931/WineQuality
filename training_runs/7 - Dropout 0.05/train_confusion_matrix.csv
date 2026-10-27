@@ -1,0 +1,6 @@
+true / predicted,Low,Medium-Low,Medium,Medium-High,High
+Low,0,82,29,0,0
+Medium-Low,0,1080,367,1,0
+Medium,0,898,464,1,0
+Medium-High,0,283,126,5,0
+High,0,24,10,1,0

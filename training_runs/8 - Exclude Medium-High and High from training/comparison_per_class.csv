@@ -1,0 +1,21 @@
+run,excluded_training_classes,split,class,precision,recall,f1-score,support
+7 - Dropout 0.05,none,validation,Low,0.0,0.0,0.0,24.0
+7 - Dropout 0.05,none,validation,Medium-Low,0.4280373831775701,0.7111801242236024,0.5344224037339557,322.0
+7 - Dropout 0.05,none,validation,Medium,0.3644859813084112,0.2574257425742574,0.3017408123791102,303.0
+7 - Dropout 0.05,none,validation,Medium-High,0.0,0.0,0.0,93.0
+7 - Dropout 0.05,none,validation,High,0.0,0.0,0.0,8.0
+7 - Dropout 0.05,none,test,Low,0.0,0.0,0.0,25.0
+7 - Dropout 0.05,none,test,Medium-Low,0.435361216730038,0.7089783281733746,0.5394581861012956,323.0
+7 - Dropout 0.05,none,test,Medium,0.3901345291479821,0.2880794701986754,0.3314285714285714,302.0
+7 - Dropout 0.05,none,test,Medium-High,0.0,0.0,0.0,93.0
+7 - Dropout 0.05,none,test,High,0.0,0.0,0.0,7.0
+8 - Exclude Medium-High and High from training,"Medium-High, High",validation,Low,0.0,0.0,0.0,24.0
+8 - Exclude Medium-High and High from training,"Medium-High, High",validation,Medium-Low,0.4319526627218935,0.453416149068323,0.4424242424242424,322.0
+8 - Exclude Medium-High and High from training,"Medium-High, High",validation,Medium,0.4070351758793969,0.5346534653465347,0.4621968616262482,303.0
+8 - Exclude Medium-High and High from training,"Medium-High, High",validation,Medium-High,0.0,0.0,0.0,93.0
+8 - Exclude Medium-High and High from training,"Medium-High, High",validation,High,0.0,0.0,0.0,8.0
+8 - Exclude Medium-High and High from training,"Medium-High, High",test,Low,0.0,0.0,0.0,25.0
+8 - Exclude Medium-High and High from training,"Medium-High, High",test,Medium-Low,0.4311926605504587,0.436532507739938,0.4338461538461538,323.0
+8 - Exclude Medium-High and High from training,"Medium-High, High",test,Medium,0.4004854368932038,0.5463576158940397,0.4621848739495798,302.0
+8 - Exclude Medium-High and High from training,"Medium-High, High",test,Medium-High,0.0,0.0,0.0,93.0
+8 - Exclude Medium-High and High from training,"Medium-High, High",test,High,0.0,0.0,0.0,7.0

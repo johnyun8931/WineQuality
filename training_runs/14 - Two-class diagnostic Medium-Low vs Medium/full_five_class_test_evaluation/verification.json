@@ -1,0 +1,8 @@
+{
+  "saved_model_unchanged": true,
+  "scaler_unchanged": true,
+  "dataset_unchanged": true,
+  "all_750_original_test_rows_scored": true,
+  "rows_outside_two_output_classes": 125,
+  "no_retraining": true
+}

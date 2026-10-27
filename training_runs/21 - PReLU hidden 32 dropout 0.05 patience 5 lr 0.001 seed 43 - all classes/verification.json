@@ -1,0 +1,13 @@
+{
+  "activation": "PReLU",
+  "same_core_hyperparameters_as_run_19": true,
+  "same_initial_linear_weights_for_all_activations": true,
+  "relu_legacy_behavior_preserved": true,
+  "all_five_classes_and_same_data_splits": true,
+  "same_scaler": true,
+  "l2_excludes_prelu_slopes": true,
+  "all_saved_metrics_recomputed": true,
+  "checkpoint_reproduces_all_saved_predictions": true,
+  "early_stopping_verified": true,
+  "plots_saved": 9
+}

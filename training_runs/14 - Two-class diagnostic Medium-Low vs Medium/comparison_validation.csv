@@ -1,0 +1,4 @@
+model,n_validation,accuracy
+"Five-class NN, evaluated only on common-class validation rows",625,0.5056
+Two-class diagnostic NN,625,0.5312
+Always predict Medium-Low,625,0.5152

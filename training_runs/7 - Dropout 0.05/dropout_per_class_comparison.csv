@@ -1,0 +1,41 @@
+run,sampling,class_weighting,dropout,split,class,precision,recall,f1-score,support
+3 - No oversampling baseline,none,none,0.0,validation,Low,0.0,0.0,0.0,24.0
+3 - No oversampling baseline,none,none,0.0,validation,Medium-Low,0.4337349397590361,0.5590062111801242,0.4884667571234735,322.0
+3 - No oversampling baseline,none,none,0.0,validation,Medium,0.3885542168674699,0.4257425742574257,0.4062992125984252,303.0
+3 - No oversampling baseline,none,none,0.0,validation,Medium-High,0.3333333333333333,0.010752688172043,0.0208333333333333,93.0
+3 - No oversampling baseline,none,none,0.0,validation,High,0.0,0.0,0.0,8.0
+3 - No oversampling baseline,none,none,0.0,test,Low,0.0,0.0,0.0,25.0
+3 - No oversampling baseline,none,none,0.0,test,Medium-Low,0.4410377358490566,0.5789473684210527,0.500669344042838,323.0
+3 - No oversampling baseline,none,none,0.0,test,Medium,0.4055727554179567,0.4337748344370861,0.4192,302.0
+3 - No oversampling baseline,none,none,0.0,test,Medium-High,0.0,0.0,0.0,93.0
+3 - No oversampling baseline,none,none,0.0,test,High,0.0,0.0,0.0,7.0
+5 - Dropout 0.20 without class weights,none,none,0.2,validation,Low,0.0,0.0,0.0,24.0
+5 - Dropout 0.20 without class weights,none,none,0.2,validation,Medium-Low,0.4356589147286822,0.8726708074534162,0.5811789038262668,322.0
+5 - Dropout 0.20 without class weights,none,none,0.2,validation,Medium,0.4285714285714285,0.1485148514851485,0.2205882352941176,303.0
+5 - Dropout 0.20 without class weights,none,none,0.2,validation,Medium-High,0.0,0.0,0.0,93.0
+5 - Dropout 0.20 without class weights,none,none,0.2,validation,High,0.0,0.0,0.0,8.0
+5 - Dropout 0.20 without class weights,none,none,0.2,test,Low,0.0,0.0,0.0,25.0
+5 - Dropout 0.20 without class weights,none,none,0.2,test,Medium-Low,0.4399350649350649,0.8390092879256966,0.577209797657082,323.0
+5 - Dropout 0.20 without class weights,none,none,0.2,test,Medium,0.3955223880597014,0.1754966887417218,0.2431192660550458,302.0
+5 - Dropout 0.20 without class weights,none,none,0.2,test,Medium-High,0.0,0.0,0.0,93.0
+5 - Dropout 0.20 without class weights,none,none,0.2,test,High,0.0,0.0,0.0,7.0
+6 - Dropout 0.10,none,none,0.1,validation,Low,0.0,0.0,0.0,24.0
+6 - Dropout 0.10,none,none,0.1,validation,Medium-Low,0.4401622718052738,0.6739130434782609,0.5325153374233129,322.0
+6 - Dropout 0.10,none,none,0.1,validation,Medium,0.38671875,0.3267326732673267,0.3542039355992844,303.0
+6 - Dropout 0.10,none,none,0.1,validation,Medium-High,0.0,0.0,0.0,93.0
+6 - Dropout 0.10,none,none,0.1,validation,High,0.0,0.0,0.0,8.0
+6 - Dropout 0.10,none,none,0.1,test,Low,0.0,0.0,0.0,25.0
+6 - Dropout 0.10,none,none,0.1,test,Medium-Low,0.4267782426778242,0.631578947368421,0.5093632958801498,323.0
+6 - Dropout 0.10,none,none,0.1,test,Medium,0.3676470588235294,0.3311258278145695,0.3484320557491289,302.0
+6 - Dropout 0.10,none,none,0.1,test,Medium-High,0.0,0.0,0.0,93.0
+6 - Dropout 0.10,none,none,0.1,test,High,0.0,0.0,0.0,7.0
+7 - Dropout 0.05,none,none,0.05,validation,Low,0.0,0.0,0.0,24.0
+7 - Dropout 0.05,none,none,0.05,validation,Medium-Low,0.4280373831775701,0.7111801242236024,0.5344224037339557,322.0
+7 - Dropout 0.05,none,none,0.05,validation,Medium,0.3644859813084112,0.2574257425742574,0.3017408123791102,303.0
+7 - Dropout 0.05,none,none,0.05,validation,Medium-High,0.0,0.0,0.0,93.0
+7 - Dropout 0.05,none,none,0.05,validation,High,0.0,0.0,0.0,8.0
+7 - Dropout 0.05,none,none,0.05,test,Low,0.0,0.0,0.0,25.0
+7 - Dropout 0.05,none,none,0.05,test,Medium-Low,0.435361216730038,0.7089783281733746,0.5394581861012956,323.0
+7 - Dropout 0.05,none,none,0.05,test,Medium,0.3901345291479821,0.2880794701986754,0.3314285714285714,302.0
+7 - Dropout 0.05,none,none,0.05,test,Medium-High,0.0,0.0,0.0,93.0
+7 - Dropout 0.05,none,none,0.05,test,High,0.0,0.0,0.0,7.0

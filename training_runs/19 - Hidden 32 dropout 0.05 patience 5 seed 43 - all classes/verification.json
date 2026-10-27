@@ -1,0 +1,11 @@
+{
+  "only_hyperparameter_changed": "patience",
+  "all_five_classes_present": true,
+  "history_matches_patience_10_prefix": true,
+  "checkpoint_tensors_identical_to_run_18": true,
+  "all_split_predictions_identical_to_run_18": true,
+  "accuracy_and_macro_f1_recomputed": true,
+  "epochs_trained": 29,
+  "best_epoch": 24,
+  "plots_saved": 9
+}

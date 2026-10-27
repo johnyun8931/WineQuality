@@ -1,0 +1,41 @@
+run,sampling,class_weighting,split,class,precision,recall,f1-score,support
+1 - Baseline with random oversampling,random oversampling,none,validation,Low,0.0,0.0,0.0,24.0
+1 - Baseline with random oversampling,random oversampling,none,validation,Medium-Low,0.422680412371134,0.6366459627329193,0.5080545229244114,322.0
+1 - Baseline with random oversampling,random oversampling,none,validation,Medium,0.3895582329317269,0.3201320132013201,0.3514492753623188,303.0
+1 - Baseline with random oversampling,random oversampling,none,validation,Medium-High,0.0,0.0,0.0,93.0
+1 - Baseline with random oversampling,random oversampling,none,validation,High,0.0,0.0,0.0,8.0
+1 - Baseline with random oversampling,random oversampling,none,test,Low,0.0,0.0,0.0,25.0
+1 - Baseline with random oversampling,random oversampling,none,test,Medium-Low,0.4350515463917526,0.653250773993808,0.5222772277227723,323.0
+1 - Baseline with random oversampling,random oversampling,none,test,Medium,0.4,0.3377483443708609,0.3662477558348294,302.0
+1 - Baseline with random oversampling,random oversampling,none,test,Medium-High,0.0,0.0,0.0,93.0
+1 - Baseline with random oversampling,random oversampling,none,test,High,0.0,0.0,0.0,7.0
+2 - SMOTE oversampling,SMOTE,none,validation,Low,0.0,0.0,0.0,24.0
+2 - SMOTE oversampling,SMOTE,none,validation,Medium-Low,0.4334975369458128,0.546583850931677,0.4835164835164835,322.0
+2 - SMOTE oversampling,SMOTE,none,validation,Medium,0.3883495145631068,0.396039603960396,0.392156862745098,303.0
+2 - SMOTE oversampling,SMOTE,none,validation,Medium-High,0.0,0.0,0.0,93.0
+2 - SMOTE oversampling,SMOTE,none,validation,High,0.0,0.0,0.0,8.0
+2 - SMOTE oversampling,SMOTE,none,test,Low,0.0909090909090909,0.04,0.0555555555555555,25.0
+2 - SMOTE oversampling,SMOTE,none,test,Medium-Low,0.4435897435897435,0.5356037151702786,0.485273492286115,323.0
+2 - SMOTE oversampling,SMOTE,none,test,Medium,0.4482758620689655,0.4735099337748344,0.4605475040257649,302.0
+2 - SMOTE oversampling,SMOTE,none,test,Medium-High,0.0,0.0,0.0,93.0
+2 - SMOTE oversampling,SMOTE,none,test,High,0.0,0.0,0.0,7.0
+3 - No oversampling baseline,none,none,validation,Low,0.0,0.0,0.0,24.0
+3 - No oversampling baseline,none,none,validation,Medium-Low,0.4337349397590361,0.5590062111801242,0.4884667571234735,322.0
+3 - No oversampling baseline,none,none,validation,Medium,0.3885542168674699,0.4257425742574257,0.4062992125984252,303.0
+3 - No oversampling baseline,none,none,validation,Medium-High,0.3333333333333333,0.010752688172043,0.0208333333333333,93.0
+3 - No oversampling baseline,none,none,validation,High,0.0,0.0,0.0,8.0
+3 - No oversampling baseline,none,none,test,Low,0.0,0.0,0.0,25.0
+3 - No oversampling baseline,none,none,test,Medium-Low,0.4410377358490566,0.5789473684210527,0.500669344042838,323.0
+3 - No oversampling baseline,none,none,test,Medium,0.4055727554179567,0.4337748344370861,0.4192,302.0
+3 - No oversampling baseline,none,none,test,Medium-High,0.0,0.0,0.0,93.0
+3 - No oversampling baseline,none,none,test,High,0.0,0.0,0.0,7.0
+4 - Class-weighted cross entropy,none,sqrt_inverse_frequency,validation,Low,0.0,0.0,0.0,24.0
+4 - Class-weighted cross entropy,none,sqrt_inverse_frequency,validation,Medium-Low,0.4238095238095238,0.5527950310559007,0.4797843665768194,322.0
+4 - Class-weighted cross entropy,none,sqrt_inverse_frequency,validation,Medium,0.3674121405750798,0.3795379537953795,0.3733766233766233,303.0
+4 - Class-weighted cross entropy,none,sqrt_inverse_frequency,validation,Medium-High,0.0588235294117647,0.010752688172043,0.0181818181818181,93.0
+4 - Class-weighted cross entropy,none,sqrt_inverse_frequency,validation,High,0.0,0.0,0.0,8.0
+4 - Class-weighted cross entropy,none,sqrt_inverse_frequency,test,Low,0.0,0.0,0.0,25.0
+4 - Class-weighted cross entropy,none,sqrt_inverse_frequency,test,Medium-Low,0.4302884615384615,0.5541795665634675,0.4844384303112314,323.0
+4 - Class-weighted cross entropy,none,sqrt_inverse_frequency,test,Medium,0.4031746031746032,0.4205298013245033,0.4116693679092382,302.0
+4 - Class-weighted cross entropy,none,sqrt_inverse_frequency,test,Medium-High,0.0526315789473684,0.010752688172043,0.0178571428571428,93.0
+4 - Class-weighted cross entropy,none,sqrt_inverse_frequency,test,High,0.0,0.0,0.0,7.0

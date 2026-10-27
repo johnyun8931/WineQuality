@@ -1,0 +1,17 @@
+{
+  "only_hidden_layer_width_changed": true,
+  "all_five_classes_in_every_split": true,
+  "identical_training_validation_test_rows": true,
+  "identical_preprocessing": true,
+  "single_hidden_layer_units": 16,
+  "parameter_count": 277,
+  "dropout_layers": 1,
+  "dropout": 0.05,
+  "patience": 2,
+  "training_seed": 43,
+  "data_seed": 42,
+  "saved_model_predictions_verified": true,
+  "best_epoch": 44,
+  "epochs_trained": 46,
+  "plot_count": 9
+}

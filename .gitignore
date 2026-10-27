@@ -1,0 +1,42 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Temporary files and local configuration
+/tmp/
+.env
+.env.*
+!.env.example
+*.tmp
+*.bak
+
+# LaTeX build intermediates (keep .tex sources and final PDFs)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.xdv
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini

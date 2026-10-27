@@ -1,0 +1,17 @@
+{
+  "only_change_from_run_22": "one-hot quality targets",
+  "same_feature_data_and_scaler": true,
+  "loss_and_gradients_equivalent_to_class_index": true,
+  "weighted_loss_and_gradients_equivalence_checked": true,
+  "checkpoint_reproduces_saved_probabilities_and_loss": true,
+  "metrics_recomputed": true,
+  "early_stopping_verified": true,
+  "prediction_changes_vs_run_22": {
+    "train": 0,
+    "validation": 0,
+    "test": 0
+  },
+  "best_epoch": 24,
+  "epochs_trained": 29,
+  "plots_saved": 9
+}

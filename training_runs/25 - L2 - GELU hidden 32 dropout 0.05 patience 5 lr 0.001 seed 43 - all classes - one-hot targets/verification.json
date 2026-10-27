@@ -1,0 +1,12 @@
+{
+  "regularization_type": "L2",
+  "penalty_values_and_gradients_verified": true,
+  "biases_and_activation_slopes_excluded": true,
+  "same_data_scaler_and_other_hyperparameters_as_run_23": true,
+  "all_split_metrics_recomputed": true,
+  "checkpoint_reproduces_all_saved_predictions": true,
+  "epoch_objectives_and_penalty_components_verified": true,
+  "early_stopping_verified": true,
+  "l2_checkpoint_identical_to_run_23": true,
+  "plots_saved": 10
+}

@@ -1,0 +1,21 @@
+run,hidden_sizes,split,class,precision,recall,f1-score,support
+9 - Patience 2 baseline,"[32, 16]",validation,Low,0.0,0.0,0.0,24.0
+9 - Patience 2 baseline,"[32, 16]",validation,Medium-Low,0.4319526627218935,0.453416149068323,0.4424242424242424,322.0
+9 - Patience 2 baseline,"[32, 16]",validation,Medium,0.4070351758793969,0.5346534653465347,0.4621968616262482,303.0
+9 - Patience 2 baseline,"[32, 16]",validation,Medium-High,0.0,0.0,0.0,93.0
+9 - Patience 2 baseline,"[32, 16]",validation,High,0.0,0.0,0.0,8.0
+9 - Patience 2 baseline,"[32, 16]",test,Low,0.0,0.0,0.0,25.0
+9 - Patience 2 baseline,"[32, 16]",test,Medium-Low,0.4311926605504587,0.436532507739938,0.4338461538461538,323.0
+9 - Patience 2 baseline,"[32, 16]",test,Medium,0.4004854368932038,0.5463576158940397,0.4621848739495798,302.0
+9 - Patience 2 baseline,"[32, 16]",test,Medium-High,0.0,0.0,0.0,93.0
+9 - Patience 2 baseline,"[32, 16]",test,High,0.0,0.0,0.0,7.0
+10 - Larger hidden layers 64-32 with dropout 0.05,"[64, 32]",validation,Low,0.0,0.0,0.0,24.0
+10 - Larger hidden layers 64-32 with dropout 0.05,"[64, 32]",validation,Medium-Low,0.4071428571428571,0.531055900621118,0.4609164420485175,322.0
+10 - Larger hidden layers 64-32 with dropout 0.05,"[64, 32]",validation,Medium,0.3696969696969697,0.4026402640264026,0.3854660347551343,303.0
+10 - Larger hidden layers 64-32 with dropout 0.05,"[64, 32]",validation,Medium-High,0.0,0.0,0.0,93.0
+10 - Larger hidden layers 64-32 with dropout 0.05,"[64, 32]",validation,High,0.0,0.0,0.0,8.0
+10 - Larger hidden layers 64-32 with dropout 0.05,"[64, 32]",test,Low,0.0,0.0,0.0,25.0
+10 - Larger hidden layers 64-32 with dropout 0.05,"[64, 32]",test,Medium-Low,0.4704491725768321,0.6160990712074303,0.5335120643431636,323.0
+10 - Larger hidden layers 64-32 with dropout 0.05,"[64, 32]",test,Medium,0.4403669724770642,0.4768211920529801,0.4578696343402226,302.0
+10 - Larger hidden layers 64-32 with dropout 0.05,"[64, 32]",test,Medium-High,0.0,0.0,0.0,93.0
+10 - Larger hidden layers 64-32 with dropout 0.05,"[64, 32]",test,High,0.0,0.0,0.0,7.0

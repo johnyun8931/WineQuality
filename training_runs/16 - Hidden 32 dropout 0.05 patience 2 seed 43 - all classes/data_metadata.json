@@ -1,0 +1,75 @@
+{
+  "dataset_path": "C:\\Users\\johny\\Desktop\\School Office\\CS 271\\HW2\\wine_quality.csv",
+  "split_fractions": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "split_seed": 42,
+  "original_training_counts": {
+    "Medium-Low": 1506,
+    "Medium": 1411,
+    "Medium-High": 434,
+    "Low": 114,
+    "High": 35
+  },
+  "excluded_training_classes": [],
+  "excluded_training_counts": {},
+  "class_exclusion_stage": "after splitting, before fitting outlier thresholds/scaler",
+  "outlier_rule": "any feature outside training Q1/Q3 +/- 1.5 IQR",
+  "outlier_training_rows_removed": 129,
+  "class_losses": {
+    "Medium-Low": {
+      "before": 1506,
+      "after": 1448,
+      "removed": 58,
+      "removed_percent": 3.85
+    },
+    "Medium": {
+      "before": 1411,
+      "after": 1363,
+      "removed": 48,
+      "removed_percent": 3.4
+    },
+    "Medium-High": {
+      "before": 434,
+      "after": 414,
+      "removed": 20,
+      "removed_percent": 4.61
+    },
+    "Low": {
+      "before": 114,
+      "after": 111,
+      "removed": 3,
+      "removed_percent": 2.63
+    },
+    "High": {
+      "before": 35,
+      "after": 35,
+      "removed": 0,
+      "removed_percent": 0.0
+    }
+  },
+  "clean_training_counts": {
+    "Medium-Low": 1448,
+    "Medium": 1363,
+    "Medium-High": 414,
+    "Low": 111,
+    "High": 35
+  },
+  "sampling_method": "none",
+  "sampling_targets": {},
+  "smote_k_neighbors": null,
+  "majority_class": "Medium-Low",
+  "scaler_fit": "clean training rows before oversampling",
+  "dataset_sha256": "d50773d1fe80138092ece48ccaef5dc8459a6193090c3e5c0a5eaede4db71be7",
+  "started_at": "2026-10-26T17:11:38.748186-07:00",
+  "versions": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  }
+}

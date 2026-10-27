@@ -1,0 +1,21 @@
+{
+  "memorization_success": true,
+  "epochs_trained": 292,
+  "first_perfect_accuracy_epoch": 111,
+  "target_consecutive_epochs_reached": 5,
+  "training_seconds": 2.6657748999859905,
+  "scores": {
+    "train": {
+      "cross_entropy": 0.009649756364524364,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "n_samples": 64
+    }
+  },
+  "training_majority_baseline_accuracy": 0.5,
+  "validation_evaluated": false,
+  "test_evaluated": false,
+  "interpretation": "Checks ability to fit training examples only; does not establish generalization or feature-label signal on unseen data."
+}

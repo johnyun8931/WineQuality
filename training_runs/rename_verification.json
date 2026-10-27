@@ -1,0 +1,31 @@
+{
+  "renamed_directories": 13,
+  "updated_reference_files": [
+    "2 - SMOTE oversampling\\comparison_with_random_oversampling.csv",
+    "3 - No oversampling baseline\\comparison_all_sampling_methods.csv",
+    "4 - Class-weighted cross entropy\\comparison_all_experiments.csv",
+    "4 - Class-weighted cross entropy\\comparison_per_class.csv",
+    "5 - Dropout 0.20 without class weights\\comparison_all_experiments.csv",
+    "5 - Dropout 0.20 without class weights\\comparison_per_class.csv",
+    "6 - Dropout 0.10\\comparison_all_experiments.csv",
+    "6 - Dropout 0.10\\dropout_comparison.csv",
+    "6 - Dropout 0.10\\dropout_per_class_comparison.csv",
+    "7 - Dropout 0.05\\comparison_all_experiments.csv",
+    "7 - Dropout 0.05\\dropout_comparison.csv",
+    "7 - Dropout 0.05\\dropout_per_class_comparison.csv",
+    "8 - Exclude Medium-High and High from training\\comparison_class_exclusion.csv",
+    "8 - Exclude Medium-High and High from training\\comparison_per_class.csv",
+    "9 - Patience 2 baseline\\comparison_patience.csv",
+    "10 - Larger hidden layers 64-32 with dropout 0.05\\comparison_hidden_sizes.csv",
+    "10 - Larger hidden layers 64-32 with dropout 0.05\\comparison_per_class.csv",
+    "11 - Repeat run 10 with training seed 42\\comparison_repeat.csv",
+    "11 - Repeat run 10 with training seed 42\\reproducibility_check.json",
+    "12 - Training seed 43 with fixed data seed 42\\comparison_per_class.csv",
+    "12 - Training seed 43 with fixed data seed 42\\comparison_training_seeds.csv",
+    "12 - Training seed 43 with fixed data seed 42\\seed_experiment_check.json",
+    "13 - Restore all five training classes\\comparison_per_class.csv",
+    "13 - Restore all five training classes\\comparison_restored_classes.csv"
+  ],
+  "file_integrity_before_reference_updates": "all original files matched their pre-rename SHA-256 hashes",
+  "training_repeated": false
+}

@@ -1,0 +1,26 @@
+{
+  "reference_run": "10 - Larger hidden layers 64-32 with dropout 0.05",
+  "repeat_run": "11 - Repeat run 10 with training seed 42",
+  "checks": {
+    "identical_hyperparameters": true,
+    "identical_data_and_preprocessing_metadata": true,
+    "identical_epoch_history": true,
+    "identical_final_scores": true,
+    "identical_stopping": true,
+    "nine_plots_saved": true,
+    "identical_train_predictions": true,
+    "identical_train_classification_report": true,
+    "identical_train_confusion_matrix": true,
+    "identical_validation_predictions": true,
+    "identical_validation_classification_report": true,
+    "identical_validation_confusion_matrix": true,
+    "identical_test_predictions": true,
+    "identical_test_classification_report": true,
+    "identical_test_confusion_matrix": true,
+    "identical_source_submission.py": true,
+    "identical_source_nn_training.py": true,
+    "identical_model_weights": true
+  },
+  "all_checks_passed": true,
+  "interpretation": "Exact repeat with seed 42 and deterministic settings; does not measure robustness to new seeds or data splits."
+}

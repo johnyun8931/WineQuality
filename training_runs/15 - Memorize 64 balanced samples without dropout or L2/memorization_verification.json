@@ -1,0 +1,16 @@
+{
+  "balanced_64_distinct_original_training_rows": true,
+  "no_holdout_rows_used": true,
+  "no_label_or_index_feature_leakage": true,
+  "scaler_fitted_on_64_training_rows_only": true,
+  "dropout_l2_weight_decay_disabled": true,
+  "validation_based_early_stopping_disabled": true,
+  "saved_model_classifies_64_of_64_correctly": true,
+  "independent_training_loss": 0.009649749845266342,
+  "five_consecutive_training_targets_verified": true,
+  "first_perfect_epoch": 111,
+  "final_epoch": 292,
+  "main_experiment_defaults_unchanged": true,
+  "validation_evaluated": false,
+  "test_evaluated": false
+}

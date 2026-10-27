@@ -1,0 +1,21 @@
+run,hidden_sizes,training_seed,data_seed,split,class,precision,recall,f1-score,support
+13 - Restore all five training classes,"[64, 32]",43,42,validation,Low,0.0,0.0,0.0,24.0
+13 - Restore all five training classes,"[64, 32]",43,42,validation,Medium-Low,0.4375,0.5869565217391305,0.5013262599469496,322.0
+13 - Restore all five training classes,"[64, 32]",43,42,validation,Medium,0.3993710691823899,0.4191419141914191,0.4090177133655394,303.0
+13 - Restore all five training classes,"[64, 32]",43,42,validation,Medium-High,0.0,0.0,0.0,93.0
+13 - Restore all five training classes,"[64, 32]",43,42,validation,High,0.0,0.0,0.0,8.0
+13 - Restore all five training classes,"[64, 32]",43,42,test,Low,0.0,0.0,0.0,25.0
+13 - Restore all five training classes,"[64, 32]",43,42,test,Medium-Low,0.4171122994652406,0.4829721362229102,0.4476327116212338,323.0
+13 - Restore all five training classes,"[64, 32]",43,42,test,Medium,0.3776595744680851,0.4701986754966887,0.4188790560471976,302.0
+13 - Restore all five training classes,"[64, 32]",43,42,test,Medium-High,0.0,0.0,0.0,93.0
+13 - Restore all five training classes,"[64, 32]",43,42,test,High,0.0,0.0,0.0,7.0
+16 - Hidden 32 dropout 0.05 patience 2 seed 43 - all classes,[32],43,42,validation,Low,0.0,0.0,0.0,24.0
+16 - Hidden 32 dropout 0.05 patience 2 seed 43 - all classes,[32],43,42,validation,Medium-Low,0.4408352668213457,0.5900621118012422,0.5046480743691899,322.0
+16 - Hidden 32 dropout 0.05 patience 2 seed 43 - all classes,[32],43,42,validation,Medium,0.4106583072100313,0.4323432343234323,0.4212218649517685,303.0
+16 - Hidden 32 dropout 0.05 patience 2 seed 43 - all classes,[32],43,42,validation,Medium-High,0.0,0.0,0.0,93.0
+16 - Hidden 32 dropout 0.05 patience 2 seed 43 - all classes,[32],43,42,validation,High,0.0,0.0,0.0,8.0
+16 - Hidden 32 dropout 0.05 patience 2 seed 43 - all classes,[32],43,42,test,Low,0.0,0.0,0.0,25.0
+16 - Hidden 32 dropout 0.05 patience 2 seed 43 - all classes,[32],43,42,test,Medium-Low,0.4752941176470588,0.6253869969040248,0.5401069518716578,323.0
+16 - Hidden 32 dropout 0.05 patience 2 seed 43 - all classes,[32],43,42,test,Medium,0.4123076923076923,0.4437086092715231,0.4274322169059011,302.0
+16 - Hidden 32 dropout 0.05 patience 2 seed 43 - all classes,[32],43,42,test,Medium-High,0.0,0.0,0.0,93.0
+16 - Hidden 32 dropout 0.05 patience 2 seed 43 - all classes,[32],43,42,test,High,0.0,0.0,0.0,7.0

@@ -1,0 +1,9 @@
+{
+  "checkpoint_epoch": 24,
+  "linear_weight_count": 512,
+  "sum_absolute_weights": 139.60202026367188,
+  "sum_squared_weights": 62.337276458740234,
+  "fraction_abs_weight_below_0.001": 0.00390625,
+  "l1_penalty": 0.006980100646615028,
+  "l2_penalty": 0.0015584318898618221
+}

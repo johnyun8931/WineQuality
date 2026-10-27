@@ -1,0 +1,88 @@
+{
+  "hidden_sizes": [
+    32,
+    16
+  ],
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "l2_lambda": 0.0001,
+  "max_epochs": 100,
+  "patience": 4,
+  "min_delta": 0.0001,
+  "adam_betas": [
+    0.9,
+    0.999
+  ],
+  "adam_eps": 1e-08,
+  "seed": 42,
+  "class_weighting": "none",
+  "dropout": 0.2,
+  "architecture": [
+    11,
+    32,
+    16,
+    5
+  ],
+  "activation": "ReLU (hidden); linear logits (output)",
+  "loss": "mean cross entropy",
+  "class_weight_formula": null,
+  "class_weight_source": null,
+  "class_weights": null,
+  "evaluation_loss": "unweighted mean cross entropy",
+  "dropout_placement": "after each hidden ReLU; disabled during evaluation",
+  "regularization": "L2: lambda/2 * sum(weights squared); biases excluded",
+  "optimizer": "Adam minibatch updates",
+  "learning_rate_scheduler": "none (constant base learning rate)",
+  "initialization": "Kaiming/He normal; zero biases",
+  "early_stopping_monitor": "validation cross entropy",
+  "device": "cpu",
+  "torch_threads": 1,
+  "class_names": [
+    "Low",
+    "Medium-Low",
+    "Medium",
+    "Medium-High",
+    "High"
+  ],
+  "feature_names": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol"
+  ],
+  "split_sizes": {
+    "train": 3371,
+    "validation": 750,
+    "test": 750
+  },
+  "class_counts": {
+    "train": {
+      "Low": 111,
+      "Medium-Low": 1448,
+      "Medium": 1363,
+      "Medium-High": 414,
+      "High": 35
+    },
+    "validation": {
+      "Low": 24,
+      "Medium-Low": 322,
+      "Medium": 303,
+      "Medium-High": 93,
+      "High": 8
+    },
+    "test": {
+      "Low": 25,
+      "Medium-Low": 323,
+      "Medium": 302,
+      "Medium-High": 93,
+      "High": 7
+    }
+  }
+}

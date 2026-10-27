@@ -1,0 +1,57 @@
+{
+  "best_epoch": 7,
+  "epochs_trained": 9,
+  "stopped_early": true,
+  "training_seconds": 1.0388322999933735,
+  "scores": {
+    "train": {
+      "cross_entropy": 0.6729663610458374,
+      "accuracy": 0.5869797225186766,
+      "balanced_accuracy": 0.5875815251537273,
+      "macro_f1": 0.5869778408023099,
+      "weighted_f1": 0.586951183153781,
+      "n_samples": 2811
+    },
+    "validation": {
+      "cross_entropy": 0.695327877998352,
+      "accuracy": 0.5312,
+      "balanced_accuracy": 0.5313992579382162,
+      "macro_f1": 0.5311567914098964,
+      "weighted_f1": 0.5312936186118913,
+      "n_samples": 625
+    }
+  },
+  "majority_baseline": {
+    "validation": {
+      "predicted_class": "Medium-Low",
+      "accuracy": 0.5152,
+      "macro_f1": 0.3400211193241816
+    }
+  },
+  "excluded_training_classes": [
+    "Low",
+    "Medium-High",
+    "High"
+  ],
+  "evaluation_classes": [
+    "Medium-Low",
+    "Medium"
+  ],
+  "test_evaluated": true,
+  "note": "Training and early stopping used only two-class training/validation data. The saved two-output model was later scored on all five original test classes without refitting; see full_five_class_test_evaluation. Parent scores remain the original binary scores.",
+  "test_evaluated_during_training": false,
+  "post_training_full_test_evaluation": {
+    "metrics_path": "full_five_class_test_evaluation/metrics.json",
+    "model_output_classes": [
+      "Medium-Low",
+      "Medium"
+    ],
+    "evaluated_classes": [
+      "Low",
+      "Medium-Low",
+      "Medium",
+      "Medium-High",
+      "High"
+    ]
+  }
+}

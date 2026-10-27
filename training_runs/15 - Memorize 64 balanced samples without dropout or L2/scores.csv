@@ -1,0 +1,2 @@
+split,cross_entropy,accuracy,balanced_accuracy,macro_f1,weighted_f1,n_samples
+train,0.009649756364524364,1.0,1.0,1.0,1.0,64

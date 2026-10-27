@@ -1,0 +1,33 @@
+{
+  "n_samples": 750,
+  "accuracy": 0.43866666666666665,
+  "balanced_accuracy": 0.2107764541857175,
+  "macro_f1": 0.1914261050600452,
+  "weighted_f1": 0.3989133301173823,
+  "cross_entropy": null,
+  "cross_entropy_note": "Five-class cross entropy is not reported: the model has only two outputs and no probability outputs for three true classes.",
+  "evaluated_classes": [
+    "Low",
+    "Medium-Low",
+    "Medium",
+    "Medium-High",
+    "High"
+  ],
+  "model_output_classes": [
+    "Medium-Low",
+    "Medium"
+  ],
+  "majority_baseline_accuracy": 0.43066666666666664,
+  "common_class_subset": {
+    "n_samples": 625,
+    "accuracy": 0.5264,
+    "majority_baseline_accuracy": 0.5168
+  },
+  "classes_outside_model_outputs": {
+    "n_samples": 125,
+    "n_correct": 0
+  },
+  "maximum_accuracy_with_these_two_outputs": 0.8333333333333334,
+  "test_used_for_training_or_early_stopping": false,
+  "retrained": false
+}

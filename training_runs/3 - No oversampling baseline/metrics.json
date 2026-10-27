@@ -1,0 +1,45 @@
+{
+  "best_epoch": 15,
+  "epochs_trained": 19,
+  "stopped_early": true,
+  "training_seconds": 2.2527641000051517,
+  "scores": {
+    "train": {
+      "cross_entropy": 1.1318851709365845,
+      "accuracy": 0.469890240284782,
+      "balanced_accuracy": 0.22673743796962462,
+      "macro_f1": 0.20933849342300048,
+      "weighted_f1": 0.42883421210389844,
+      "n_samples": 3371
+    },
+    "validation": {
+      "cross_entropy": 1.1792817115783691,
+      "accuracy": 0.41333333333333333,
+      "balanced_accuracy": 0.19910029472191856,
+      "macro_f1": 0.18311986061104643,
+      "weighted_f1": 0.37644327628144175,
+      "n_samples": 750
+    },
+    "test": {
+      "cross_entropy": 1.170289158821106,
+      "accuracy": 0.424,
+      "balanced_accuracy": 0.20254444057162777,
+      "macro_f1": 0.18397386880856761,
+      "weighted_f1": 0.3844194641677823,
+      "n_samples": 750
+    }
+  },
+  "majority_baseline": {
+    "validation": {
+      "predicted_class": "Medium-Low",
+      "accuracy": 0.42933333333333334,
+      "macro_f1": 0.12014925373134329
+    },
+    "test": {
+      "predicted_class": "Medium-Low",
+      "accuracy": 0.43066666666666664,
+      "macro_f1": 0.12041006523765145
+    }
+  },
+  "note": "Training scores use cleaned data without resampling; validation/test keep original distributions."
+}
